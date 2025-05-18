@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Artistas - All MUSIC</title>
+  <style>
+    body {
+      background-image: url('imagenes/33995_converted.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 20px;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #fff;
+      text-shadow: 0 0 5px #ff6ec7;
+    }
+    .artist-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 0;
+      list-style: none;
+    }
+    .artist-card {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      padding: 15px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 0 10px #ff6ec7;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .artist-card:hover,
+    .artist-card:focus-within {
+      transform: scale(1.05);
+      outline: none;
+      box-shadow: 0 0 15px #ff6ec7;
+    }
+    .artist-image {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .artist-name {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #ff6ec7;
+    }
+    .artist-genre {
+      font-size: 0.875rem;
+      color: #ccc;
+      margin-bottom: 0.75rem;
+      font-style: italic;
+    }
+    .artist-description {
+      font-size: 0.875rem;
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .artist-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Artistas</h1>
+
+  <ul class="artist-list">
+
+    <li class="artist-card" tabindex="0">
+      <img src="imagenes/Eminem-PNG-HD-Photo.png" alt="imagen png" class="artist-image" />
+      <div class="artist-name">Eminem</div>
+      <div class="artist-genre">Rap</div>
+      <div class="artist-description">Rimas intensas y personales, con crítica social.</div>
+    </li>
+
+    <li class="artist-card" tabindex="0">
+      <img src="imagenes/Linkin_Park_logo_2024.svg.png" alt="imagen png" class="artist-image" />
+      <div class="artist-name">Linkin Park</div>
+      <div class="artist-genre">Rock</div>
+      <div class="artist-description">Rock con elementos electrónicos y letras emocionales.</div>
+    </li>
+
+    <li class="artist-card" tabindex="0">
+      <img src="imagenes/444-4445917_david-guetta-png-david-guetta-clipart (1).png" alt="imagen png" class="artist-image" />
+      <div class="artist-name">David Guetta</div>
+      <div class="artist-genre">Electrónica</div>
+      <div class="artist-description">DJ reconocido por sus increíbles mezclas y festivales internacionales.</div>
+    </li>
+
+    <li class="artist-card" tabindex="0">
+      <img src="imagenes/486x486bb.png" alt="imagen png" class="artist-image" />
+      <div class="artist-name">The Flirts</div>
+      <div class="artist-genre">Disco</div>
+      <div class="artist-description">Íconos del ritmo ochentero.</div>
+    </li>
+
+    <li class="artist-card" tabindex="0">
+      <img src="imagenes/r1qvyy_large.png" alt="imagen png " class="artist-image" />
+      <div class="artist-name">Don Omar</div>
+      <div class="artist-genre">Reggaetón</div>
+      <div class="artist-description">Pionero y leyenda del reggaetón.</div>
+    </li>
+
+  </ul>
+
+</body>
+</html>
+
+
+
+
+
